@@ -34,3 +34,13 @@ elif defaultweb == 'chrome':
 elif driver == 'safari':
     driver = safari
 #web.open("screener.in")
+
+# Exchange Time DATA
+exc_time = ["Exchange Received Time", "Ex Disseminated Time", "Time Taken"]
+
+for c in range(1, 2):
+    try:
+        columns = driver.find_element_by_xpath('/html/body/div[1]/div[4]/div[2]/div[2]/div[3]/div/div/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr[4]/td/table[{}]/tbody/tr[2]/td/b[{}]'.format(str(r), str(c))).text
+        column_info.append(columns)
+    except Exception as e:
+        print(e)
