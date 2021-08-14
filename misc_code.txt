@@ -1,0 +1,36 @@
+# Generate HTML file
+f = open('bse.html', 'w')
+html_template = """
+<html>
+<head>BSE Announcements</head>
+<body>
+<p>BSE Announcements</p>
+<table>
+    <tr>
+        <th>{}</th>
+    </tr>
+    <tr>
+        <td>{}</td>
+    </tr>
+</table>
+</body>
+</html>
+"""
+col = "Hello"
+f.write(html_template.format(col, col))
+f.close()
+webbrowser.open('bse.html')
+
+
+
+# Selecting the Web Browser for Automation
+web = webbrowser.get(using=None) # web is a webbrowser object
+defaultweb = vars(web)['name']
+print(defaultweb)
+if defaultweb == 'firefox':
+    driver = firefoxdriver
+elif defaultweb == 'chrome':
+    driver = chromedriver
+elif driver == 'safari':
+    driver = safari
+#web.open("screener.in")
