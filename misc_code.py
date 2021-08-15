@@ -44,3 +44,9 @@ for c in range(1, 2):
         column_info.append(columns)
     except Exception as e:
         print(e)
+
+
+df1['PDF'] = df1['PDF'].apply(lambda pdf_links: '<a href="https://bseindia.com{}">pdf link</a>'.format(pdf_links))
+def create_clickable_id(id):
+    url_template= '''<a href="../../link/to/{id}" target="_blank">{id}</a>'''.format(id=id)
+    return url_template

@@ -2982,3 +2982,436 @@ JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILU
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1628981607381	geckodriver	INFO	Listening on 127.0.0.1:42551
+1628981607413	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4s7tbP"
+*** You are running in headless mode.
+1628981607715	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4s7tbP/search.json.mozlz4", (void 0)))
+1628981608617	Marionette	INFO	Listening on port 39585
+1628981608734	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bseindia.com/corporates/ann.html line 1 > injectedScript, line 935: ReferenceError: B is not defined
+1629005563150	geckodriver	INFO	Listening on 127.0.0.1:42283
+1629005563167	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9XnfVt"
+*** You are running in headless mode.
+1629005563533	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9XnfVt/search.json.mozlz4", (void 0)))
+1629005564632	Marionette	INFO	Listening on port 42249
+1629005564698	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bseindia.com/corporates/ann.html line 1 > injectedScript, line 935: ReferenceError: B is not defined
+1629005665798	Marionette	INFO	Stopped listening on port 42249
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofile9XnfVt/protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629014117787	geckodriver	INFO	Listening on 127.0.0.1:44605
+1629014117792	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZ5DoXj"
+*** You are running in headless mode.
+1629014118108	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZ5DoXj/search.json.mozlz4", (void 0)))
+1629014119144	Marionette	INFO	Listening on port 44071
+1629014119211	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bseindia.com/corporates/ann.html line 1 > injectedScript, line 935: ReferenceError: B is not defined
+1629014167839	Marionette	INFO	Stopped listening on port 44071
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileZ5DoXj/protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629014369001	geckodriver	INFO	Listening on 127.0.0.1:54695
+1629014369006	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegZ9kE7"
+*** You are running in headless mode.
+1629014369317	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegZ9kE7/search.json.mozlz4", (void 0)))
+1629014370373	Marionette	INFO	Listening on port 36057
+1629014370473	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bseindia.com/corporates/ann.html line 1 > injectedScript, line 935: ReferenceError: B is not defined
+1629014422947	Marionette	INFO	Stopped listening on port 36057
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofilegZ9kE7/protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629018135402	geckodriver	INFO	Listening on 127.0.0.1:48835
+1629018135408	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileX9UXB2"
+*** You are running in headless mode.
+1629018135715	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileX9UXB2/search.json.mozlz4", (void 0)))
+1629018136756	Marionette	INFO	Listening on port 45545
+1629018136831	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bseindia.com/corporates/ann.html line 1 > injectedScript, line 935: ReferenceError: B is not defined
+1629018144085	Marionette	INFO	Stopped listening on port 45545
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileX9UXB2/protections.sqlite
+1629018196365	geckodriver	INFO	Listening on 127.0.0.1:47739
+1629018196371	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3HZK6S"
+*** You are running in headless mode.
+1629018196680	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3HZK6S/search.json.mozlz4", (void 0)))
+1629018197702	Marionette	INFO	Listening on port 45799
+1629018197791	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bseindia.com/corporates/ann.html line 1 > injectedScript, line 935: ReferenceError: B is not defined
+1629018218762	Marionette	INFO	Stopped listening on port 45799
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofile3HZK6S/protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629018431095	geckodriver	INFO	Listening on 127.0.0.1:51897
+1629018431100	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebCWa3J"
+*** You are running in headless mode.
+1629018431409	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebCWa3J/search.json.mozlz4", (void 0)))
+1629018432442	Marionette	INFO	Listening on port 36213
+1629018432562	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bseindia.com/corporates/ann.html line 1 > injectedScript, line 935: ReferenceError: B is not defined
+1629018438603	Marionette	INFO	Stopped listening on port 36213
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofilebCWa3J/protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629018475009	geckodriver	INFO	Listening on 127.0.0.1:33815
+1629018475014	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQDXAxu"
+*** You are running in headless mode.
+1629018475326	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQDXAxu/search.json.mozlz4", (void 0)))
+1629018476336	Marionette	INFO	Listening on port 45685
+1629018476435	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bseindia.com/corporates/ann.html line 1 > injectedScript, line 935: ReferenceError: B is not defined
+1629018526181	Marionette	INFO	Stopped listening on port 45685
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileQDXAxu/protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629018562386	geckodriver	INFO	Listening on 127.0.0.1:54153
+1629018562391	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepaWjdN"
+1629018562832	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepaWjdN/search.json.mozlz4", (void 0)))
+1629018564678	Marionette	INFO	Listening on port 38463
+1629018564717	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bseindia.com/corporates/ann.html line 1 > injectedScript, line 935: ReferenceError: B is not defined
+1629018575239	Marionette	INFO	Stopped listening on port 38463
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629018635454	geckodriver	INFO	Listening on 127.0.0.1:34631
+1629018635459	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5UNz5U"
+1629018635913	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5UNz5U/search.json.mozlz4", (void 0)))
+1629018637781	Marionette	INFO	Listening on port 39117
+1629018637891	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bseindia.com/corporates/ann.html line 1 > injectedScript, line 935: ReferenceError: B is not defined
+1629018641627	Marionette	INFO	Stopped listening on port 39117
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1629018749058	geckodriver	INFO	Listening on 127.0.0.1:33421
+1629018749064	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRD0Kj2"
+*** You are running in headless mode.
+1629018749549	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRD0Kj2/search.json.mozlz4", (void 0)))
+1629018751158	Marionette	INFO	Listening on port 41243
+1629018751218	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bseindia.com/corporates/ann.html line 1 > injectedScript, line 935: ReferenceError: B is not defined
+1629018805358	Marionette	INFO	Stopped listening on port 41243
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileRD0Kj2/protections.sqlite
+1629018812149	geckodriver	INFO	Listening on 127.0.0.1:43421
+1629018812154	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2XYfyr"
+*** You are running in headless mode.
+1629018812459	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2XYfyr/search.json.mozlz4", (void 0)))
+1629018813471	Marionette	INFO	Listening on port 45485
+1629018813578	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bseindia.com/corporates/ann.html line 1 > injectedScript, line 935: ReferenceError: B is not defined
+1629018865178	Marionette	INFO	Stopped listening on port 45485
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofile2XYfyr/protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629018906385	geckodriver	INFO	Listening on 127.0.0.1:60297
+1629018906391	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVehVhU"
+*** You are running in headless mode.
+1629018906700	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVehVhU/search.json.mozlz4", (void 0)))
+1629018907752	Marionette	INFO	Listening on port 41467
+1629018907809	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1629018909839	Marionette	INFO	Stopped listening on port 41467
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileVehVhU/protections.sqlite
+1629018919958	geckodriver	INFO	Listening on 127.0.0.1:57585
+1629018919964	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefz2y32"
+*** You are running in headless mode.
+1629018920266	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefz2y32/search.json.mozlz4", (void 0)))
+1629018921518	Marionette	INFO	Listening on port 33717
+1629018921612	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1629018923368	Marionette	INFO	Stopped listening on port 33717
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629018933993	geckodriver	INFO	Listening on 127.0.0.1:44897
+1629018933998	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileu2GeLE"
+*** You are running in headless mode.
+1629018934308	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileu2GeLE/search.json.mozlz4", (void 0)))
+1629018935336	Marionette	INFO	Listening on port 32819
+1629018935419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bseindia.com/corporates/ann.html line 1 > injectedScript, line 935: ReferenceError: B is not defined
+1629018943935	Marionette	INFO	Stopped listening on port 32819
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileu2GeLE/protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629018966629	geckodriver	INFO	Listening on 127.0.0.1:60843
+1629018966634	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWGwWEx"
+*** You are running in headless mode.
+1629018966940	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWGwWEx/search.json.mozlz4", (void 0)))
+1629018967984	Marionette	INFO	Listening on port 36731
+1629018968052	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bseindia.com/corporates/ann.html line 1 > injectedScript, line 935: ReferenceError: B is not defined
+1629018996765	Marionette	INFO	Stopped listening on port 36731
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: IOUtils: Shutting down and refusing additional I/O tasks
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002E,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileWGwWEx/protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629019070481	geckodriver	INFO	Listening on 127.0.0.1:34709
+1629019070487	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileB5YIa3"
+*** You are running in headless mode.
+1629019070802	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileB5YIa3/search.json.mozlz4", (void 0)))
+1629019071870	Marionette	INFO	Listening on port 44811
+1629019071909	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1629019073937	Marionette	INFO	Stopped listening on port 44811
+JavaScript error: https://www.bseindia.com/corporates/ann.html line 1 > injectedScript, line 935: ReferenceError: B is not defined
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629019088521	geckodriver	INFO	Listening on 127.0.0.1:44399
+1629019088527	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLSb30j"
+*** You are running in headless mode.
+1629019088833	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLSb30j/search.json.mozlz4", (void 0)))
+1629019089873	Marionette	INFO	Listening on port 36843
+1629019089947	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bseindia.com/corporates/ann.html line 1 > injectedScript, line 935: ReferenceError: B is not defined
+1629019208132	Marionette	INFO	Stopped listening on port 36843
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileLSb30j/protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629019307955	geckodriver	INFO	Listening on 127.0.0.1:37305
+1629019307960	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--incognito" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileD0MtD3"
+*** You are running in headless mode.
+1629019308266	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileD0MtD3/search.json.mozlz4", (void 0)))
+1629019309665	Marionette	INFO	Listening on port 37437
+1629019309701	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bseindia.com/corporates/ann.html line 1 > injectedScript, line 935: ReferenceError: B is not defined
+1629019426257	Marionette	INFO	Stopped listening on port 37437
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileD0MtD3/protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
