@@ -22,6 +22,11 @@ f.close()
 webbrowser.open('bse.html')
 
 
+# Form Buttons for BSE Announcements Input
+segment = st.selectbox("Segment", segments, index=2)
+from_date = st.date_input('From Date', max_value=date.today())
+to_date = st.date_input('To Date', max_value=date.today())
+button = st.form_submit_button("Submit")
 
 # Selecting the Web Browser for Automation
 web = webbrowser.get(using=None) # web is a webbrowser object
