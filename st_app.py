@@ -11,20 +11,25 @@ import os
 from main import bse_data
 
 # streamlit
-st.set_page_config(page_title='App', page_icon=':moneybag:', layout='wide', initial_sidebar_state='expanded')
-st.sidebar.title(':shark:' + ' Dashboard')
+st.set_page_config(page_title='App', page_icon=':moneybag:',
+                   layout='wide', initial_sidebar_state='expanded')
+st.sidebar.title(':newspaper:' + ' Dashboard')
+
+
 @st.cache(suppress_st_warning=True)
 def footer():
     with st.sidebar.expander("Credits"):
         st.success('Created by VH')
         components.html(
-        """
+            """
         <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="hirawat" data-color="#FFDD00" data-emoji="☕"  data-font="Poppins" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
         """,
-        height=100
+            height=100
         )
 
-matching_keywords = ["Presentation", "DRHP", "FDA", "Transcript", "Press Release", "Amalgamation", "Buyback", "Contract", "Delisting", "Demerger", "Preference Shares", "Annual Report", "Result", "Board Meeting", "Dividend"]
+
+matching_keywords = ["Presentation", "DRHP", "FDA", "Transcript", "Press Release", "Amalgamation", "Buyback",
+                     "Contract", "Delisting", "Demerger", "Preference Shares", "Annual Report", "Result", "Board Meeting", "Dividend"]
 segments = ["Equity", "Debt/Others", "MF/ETFs"]
 # Widget
 with st.sidebar.form("Input", clear_on_submit=False):
@@ -32,14 +37,15 @@ with st.sidebar.form("Input", clear_on_submit=False):
     from_date = date.today()
     to_date = date.today()
     date = from_date.strftime("%d %B %Y")
-    st.write("Segment :", segment)
-    st.write('Date :', date)
-    #st.write('From Date', from_date)
-    #st.write('To Date', to_date)
+    st.write(":label: Segment :", segment)
+    st.write(':date: Date :', date)
+    # st.write('From Date', from_date)
+    # st.write('To Date', to_date)
     button = st.form_submit_button("Reload")
 
 fd = from_date.strftime("%d/%m/%Y")
 td = to_date.strftime("%d/%m/%Y")
+
 
 @st.cache(suppress_st_warning=True)
 def get_data():
@@ -48,19 +54,11 @@ def get_data():
     return path, timestamp
 
 
-#with st.spinner(text='In progress...'):
-#    st.info("The code might take some time to run for the first time."+ ":dragon:")
 def make_clickable(link):
     # target _blank to open new window
     # extract clickable text to display for your link
     #text = link.split('=')[1]
     return f'<a target="_blank" href="{link}">Click Here</a>'
-
-
-def keywords(df):
-    df_new = df.copy()
-
-    return df_new
 
 
 # Main function
@@ -69,19 +67,16 @@ def main():
     df = pd.read_csv(path_csv)
     st.sidebar.write(len(df), "Announcements for Today")
     if len(df) == 0:
-        st.info("No Announcements for Today. :fire: Select a Different Date and Rerun. :clown:")
+        st.info(
+            "No Announcements for Today. :fire: Select a Different Date and Rerun. :clown:")
         footer()
     else:
-        time = timestamp.strftime('%X')
-        st.sidebar.write("Last Updated at :", time) #'%I %M %p'
+        time = timestamp.strftime('%I:%M %p')
+        st.sidebar.write(":hourglass: Last Updated ", time)  # '%I:%M %p', '%X'
         footer()
         # Create Matching Keywords Column
-        keywords = st.multiselect("Announcements Category", matching_keywords, default=matching_keywords)
-        output_set = set()
-        for var in df["More Info"]:
-            if var == keywords:
-                output_set.add(set)
-
+        keywords = st.multiselect(
+            "Announcements Category", matching_keywords, default=matching_keywords)
 
         dfc = df.copy()
         # Data Analysis
@@ -91,8 +86,6 @@ def main():
         # link is the column with hyperlinks
         dfnew['PDF'] = dfnew['PDF'].apply(make_clickable)
         dfnew1 = dfnew.to_html(escape=False)
-
-
 
         st.write(dfnew1, unsafe_allow_html=True)
         dir = os.getcwd() + "/data/*.html"
