@@ -4,7 +4,7 @@ from datetime import datetime, date
 
 
 def mkeywords(df):
-    path = os.getcwd() + '/keywords.txt'
+    path = os.getcwd() + 'data/keywords.txt'
     print(path)
     dfc = df.copy()
     f = open(path, 'r')

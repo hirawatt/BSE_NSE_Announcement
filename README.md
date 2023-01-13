@@ -4,9 +4,12 @@
 ![image](https://user-images.githubusercontent.com/38539637/130329734-d104c3bd-29cc-403f-a84c-2599e213adbb.png)
 
 ## Table of contents
-- [Installation](#installation)
-- [Roadmap](#roadmap)
-- [Development](#development)
+- [☕️ BSE\_Announcements](#️-bse_announcements)
+	- [Table of contents](#table-of-contents)
+	- [Installation](#installation)
+	- [Roadmap](#roadmap)
+	- [Development](#development)
+	- [Project structure](#project-structure)
 
 ## Installation
 - Install [Python](https://www.python.org/downloads/) for your Operating System from the required link.
@@ -32,7 +35,24 @@ streamlit run st_app.py
 - [ ] Create a Watchlist of Companies
 - [ ] Desktop Notification for Watchlist Company Results
 ## Development
-Contributions are very welcome! Project structure:
-- `st_app.py` - Streamlit App File
-- `/data` - Data Files to be stored
-- `/drivers` - Browser Drivers to be installed
+Contributions are very welcome! 
+
+## Project structure
+
+```
+.
+├── data/
+│   ├── keywords.txt                   # Screener Announcements Keywords
+│   └── BSE_{from-year}_{to-year}.csv  # Announcements in csv
+├── drivers/                           # Browser drivers
+│   ├── chromedriver
+│   └── geckodriver
+├── .gitignore
+├── CNAME
+├── main.py
+├── mkeywords.py
+├── notification.py
+├── README.md
+├── requirements.txt
+└── st_app.py                          # Streamlit app file
+```
