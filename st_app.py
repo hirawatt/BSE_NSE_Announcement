@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit import caching
 import streamlit.components.v1 as components
 
 from datetime import datetime, date, time, timedelta
